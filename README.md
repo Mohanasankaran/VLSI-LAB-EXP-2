@@ -157,6 +157,8 @@ OUTPUT:
 SIMULATION:
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/21efb47d-196c-48a5-ae8f-161e906a46e2)
 ELABORATED DESIGN:
+![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/32970e9e-2140-4911-b6c4-dea5f2e5d576)
+
 
 RESULT
 
