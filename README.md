@@ -1,9 +1,12 @@
+VLSI-LAB-EXPERIMENTS
 SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
 
 AIM: 
+
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Vivado software.
 
 APPARATUS REQUIRED:
+
 Vivado™ ML 2023.2
 
 **LOGIC DIAGRAM**
@@ -35,6 +38,7 @@ MAGNITUDE COMPARATOR
 
   
 PROCEDURE:
+
 Open Vivado: Launch Xilinx Vivado software on your computer.
 
 Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -54,6 +58,7 @@ Run Simulation: Start the simulation by clicking on the "Run" button in the simu
 View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
 
 VERILOG CODE
+
 1.
 DECODER 3TO8:
 ```
@@ -71,6 +76,7 @@ and g8(y[7], (a), (b), (c));
 endmodule
 ```
 OUTPUT:
+
 SIMULATION:
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/fc413541-851d-424f-8bcd-28cb3d8d9744)
 ELABORATED DESIGN:
@@ -167,7 +173,8 @@ ELABORATED DESIGN:
 
 
 
-RESULT
+RESULT:
+
 The Simulation and Synthesis Logic Gates,Adders and Subtractor is successfully verified using Vivado Software
 
 
