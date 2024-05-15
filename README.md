@@ -1,12 +1,12 @@
 **VLSI-LAB-EXPERIMENTS**
 
-SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
+**SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS**
 
-AIM: 
+**AIM:**
 
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Vivado software.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 
 Vivado™ ML 2023.2
 
@@ -38,7 +38,7 @@ MAGNITUDE COMPARATOR
 
 
   
-PROCEDURE:
+**PROCEDURE:**
 
 Open Vivado: Launch Xilinx Vivado software on your computer.
 
@@ -58,7 +58,7 @@ Run Simulation: Start the simulation by clicking on the "Run" button in the simu
 
 View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
 
-VERILOG CODE
+**VERILOG CODE**
 
 1.
 DECODER 3TO8:
@@ -79,8 +79,11 @@ endmodule
 OUTPUT:
 
 SIMULATION:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/fc413541-851d-424f-8bcd-28cb3d8d9744)
+
 ELABORATED DESIGN:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/334a77d8-a0f1-46ce-9606-2d86d7019570)
 
 2.
@@ -100,9 +103,13 @@ d7=(in & s2 & s1 &s0);
 endmodule
 ```
 OUTPUT:
+
 SIMULATION:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/b14987d3-15ff-492a-b043-2cd6b559bbe2)
+
 ELABORATED DESIGN:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/98d1e465-54fb-4a81-bc8a-ca85a7ed51ca)
 
 3.
@@ -116,9 +123,13 @@ or g3(a2,d4,d5,d6,d7);
 endmodule
 ```
 OUTPUT:
+
 SIMULATION:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/b61d22e0-3925-471f-be48-ba2d8729166b)
+
 ELABORATED DESIGN:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/d71e6b2c-dfee-4d43-b311-bac2d2c37644)
 
 4.
@@ -151,9 +162,13 @@ end
 endmodule
 ```
 OUTPUT:
+
 SIMULATION:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/5b87e3d7-b420-49d4-9018-02c399457c6e)
+
 ELABORATED DESIGN:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/aae1897f-5a93-41f9-99ad-6cde7920539e)
 
 5.
@@ -166,8 +181,11 @@ assign y=s1 ?(s0?d:c):(s0?b:a);
 endmodule
 ```
 OUTPUT:
+
 SIMULATION:
+
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/21efb47d-196c-48a5-ae8f-161e906a46e2)
+
 ELABORATED DESIGN:
 
 ![image](https://github.com/Mohanasankaran/VLSI-LAB-EXP-2/assets/161284142/026c97ae-b5e4-4203-8cef-750ac4d79d0b)
